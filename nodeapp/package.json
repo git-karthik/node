@@ -1,0 +1,14 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "My First Node Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test server"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Karthikeyan R",
+  "license": "ISC"
+}
