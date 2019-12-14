@@ -2,6 +2,7 @@ import * as path from 'path';
 import express from "express";
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
+import HeroRouter from './routes/HeroRouter';
 
 class App{
     public xpress = express.application;
@@ -21,6 +22,7 @@ class App{
             });
         });
         this.xpress.use('/', router);
+        this.xpress.use('/api/v1/heroes',HeroRouter);
     }
     private middleware(): void {
         this.xpress.use(morgan("dev"));
