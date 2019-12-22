@@ -19,6 +19,3 @@ EXPOSE 3000
 #Execute the container!!!
 CMD [ "npm", "start" ]
 
-
-
-
