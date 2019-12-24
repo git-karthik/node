@@ -7,7 +7,7 @@ export const removeDirSync = (dirPath: fs.PathLike) => {
         throw Error(`No such directory in path: ${dirPath}`);
     }
 
-    fs.rmdirSync(dirPath, {recursive: true});
+    fs.rmdirSync(dirPath, { recursive: true });
     console.log(`${dirPath} removed successfully`);
 };
 
