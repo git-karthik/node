@@ -1,0 +1,23 @@
+{
+  "name": "npm-build",
+  "version": "1.0.0",
+  "description": "NPM Build Setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp setup",
+    "unpack": "gulp unzip"
+  },
+  "keywords": [
+    "gulp",
+    "build"
+  ],
+  "author": "Karthikeyan R",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-unzip": "^1.1.0"
+  }
+}
