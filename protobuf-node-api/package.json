@@ -1,0 +1,22 @@
+{
+  "name": "protobuf-node-api",
+  "version": "1.0.0",
+  "description": "ProtoBuf Encoding Node API",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthikeyan R",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "protobufjs": "^6.8.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/protobufjs": "^6.0.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}

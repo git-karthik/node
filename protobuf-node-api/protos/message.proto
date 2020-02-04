@@ -1,0 +1,8 @@
+package com.demo;
+syntax = "proto3";
+message Message{
+    required string empId = 1;
+    optional string empName = 2;
+    optional string location = 3;
+    repeated string skills = 4;
+}
