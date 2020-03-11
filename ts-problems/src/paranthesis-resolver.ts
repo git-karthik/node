@@ -1,5 +1,5 @@
 export class paranthesisresolver{
-
+    
     longestValidParanthesis(s:string) : number {
         let left:number = 0;
         let right:number = 0;
